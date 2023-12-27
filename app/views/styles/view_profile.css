@@ -1,0 +1,101 @@
+h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    font-weight: normal;
+    margin-top:20px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 7px #000;
+}
+
+h3 {
+    position: relative;
+    color: rgb(185, 28, 48);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+h3:before, h3:after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid rgb(185, 30, 50);
+}
+
+h3 span {
+    padding: 0 10px;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+
+p {
+    margin-top: 8px; /* Внешний отступ сверху - 20 пикселей */
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+body {
+    font-family: "Century Gothic";
+    text-align: center;
+    background-color: #690849;
+    background-image: url('images/IMG_5378.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для каждого элемента списка li */
+ul li {
+    margin-bottom: 30px; /* Добавляет внешний отступ снизу между элементами списка */
+}
+
+/* Стили для ссылок внутри списка */
+ul li a {
+    text-decoration: none; /* Убирает подчеркивание у ссылок */
+    color: rgb(241, 49, 72); /* Устанавливает цвет текста для ссылок */
+}
+
+.view_profile-container {
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px; /* Добавим небольшой внешний отступ */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 20px;
+    font-weight: bold;
+    background-color: #680648;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 20px; /* Устанавливает закругленность углов, создавая эффект плоского овала или мягкого квадрата */
+    width: 190px; /* Устанавливает одинаковую ширину для всех кнопок */
+    height: 30px; /* Устанавливает одинаковую высоту для всех кнопок */
+    text-align: center; /* Выравнивает текст по центру */
+    line-height: 30px; /* Центрирует текст по вертикали */
+}
+
+.button:hover {
+    background-color: rgb(232, 36, 76);
+    color: rgb(255, 255, 255);
+}
+

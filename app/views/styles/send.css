@@ -1,0 +1,48 @@
+h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 7px #000;
+}
+
+body {
+    font-family: "Century Gothic";
+    text-align: center;
+    background-color: #690849;
+    background-image: url('images/min.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 130%;
+    color: white;
+    text-shadow: 1px 1px 4px #000;
+}
+
+a{
+    font-family: "Century Gothic";
+    font-size: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(105, 8, 73);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 210px;
+    text-align: center;
+    line-height: 30px;
+}
+
+a:hover {
+    background-color: rgb(242, 44, 80);
+    color: rgb(255, 255, 255);
+}

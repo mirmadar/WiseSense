@@ -1,0 +1,223 @@
+h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    font-weight: normal;
+    margin-top:20px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 7px #000;
+}
+
+.profile-container {
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: space-between;
+}
+
+.profile-data,
+.friends-requests {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px; /* Добавим небольшой внешний отступ */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.profile-data {
+    width: 60%; /* Измените ширину по вашему усмотрению */
+}
+
+.friends-requests {
+    width: 40%; /* Измените ширину по вашему усмотрению */
+}
+
+
+.post_creation{
+    width: 90%;
+    box-shadow: none;
+    padding: 10px;
+    margin: 20px auto; /* Отступ сверху и автоматическое центрирование по горизонтали */
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    font-family: "Century Gothic";
+}
+
+.post_creation textarea {
+    font-size: 18px;
+    width: 80%; /* Ширина поля для ввода - 100% от родительского блока */
+    height: 100px;
+    padding: 10px; /* Внутренний отступ - 10 пикселей */
+    margin-bottom: 10px; /* Внешний отступ снизу - 10 пикселей */
+    border: 2px solid #ccc; /* Граница поля для ввода */
+    border-radius: 5px; /* Радиус скругления углов - 5 пикселей */
+    box-sizing: border-box; /* Учитываем границу в расчете ширины и высоты */
+    resize: none; /* Запрещаем изменение размера поля для ввода */
+}
+
+body {
+    font-family: "Century Gothic";
+    text-align: center;
+    background-color: #690849;
+    background-image: url('images/IMG_5378.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h3 {
+    position: relative;
+    color: rgb(185, 28, 48);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+h3:before, h3:after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid rgb(185, 30, 50);
+}
+
+h3 span {
+    padding: 0 10px;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+
+
+p {
+    margin-top: 8px; /* Внешний отступ сверху - 20 пикселей */
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Стили для каждого элемента списка li */
+ul li {
+    margin: 15px auto;
+    width: 80%;
+    /*margin-bottom: 20px; !* Добавляет внешний отступ снизу между элементами списка *!*/
+}
+
+/* Стили для ссылок внутри списка */
+ul li a {
+    text-decoration: none; /* Убирает подчеркивание у ссылок */
+    color: rgb(241, 49, 72); /* Устанавливает цвет текста для ссылок */
+}
+
+.list_friends a{
+    text-decoration: none; /* Убирает подчеркивание у ссылок */
+    color: rgb(0, 0, 0);
+}
+
+.list_friends a:hover{
+    color: rgb(241, 49, 72);
+    font-weight: bold;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(241, 49, 72);
+}
+
+form {
+    /*background-color: white;*/
+    border-radius: 10px;
+    padding: 20px;
+    /*margin-bottom: 90px; !* Отступ сверху и автоматическое центрирование по горизонтали *!*/
+    /*margin-top: 0px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100%;
+    width: 400px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+.post_creation{
+    margin: 0 auto; /* Отступ сверху и автоматическое центрирование по горизонтали */
+}
+.form_logout{
+    box-shadow: none;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+}
+
+/*.post_creation {*/
+/*    flex: 1;*/
+/*    padding: 10px;*/
+/*    background-color: rgb(255, 255, 255);*/
+/*    border-radius: 10px;*/
+/*    margin: 10px auto; !* Убираем левый и правый отступ, добавляем auto для выравнивания по центру *!*/
+/*    box-shadow: none;*/
+/*    width: 100%; !* Ширина блока - 100% от доступной ширины, чтобы занять всю ширину блока .profile-container *!*/
+/*}*/
+
+
+input {
+    padding: 8px;
+    margin: 8px 0;
+    width: 350px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: medium;
+}
+
+input:hover {
+    background: white;
+}
+.logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+}
+
+.form_logout{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: "Century Gothic";
+    font-size: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(105, 8, 73);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 210px;
+    text-align: center;
+    line-height: 30px;
+}
+
+button:hover {
+    background-color: rgb(232, 36, 76);
+    color: rgb(255, 255, 255);
+}

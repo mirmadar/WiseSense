@@ -1,0 +1,76 @@
+h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 7px #000;
+}
+
+body {
+    font-family: "Century Gothic";
+    text-align: center;
+    background-color: #690849;
+    background-image: url('images/ghhggh-min.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100%;
+    width: 600px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+}
+
+label {
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+}
+
+textarea {
+    font-family: "Century Gothic";
+    padding: 8px;
+    margin: 8px 0;
+    width: 80%; /* Ширина поля для ввода - 100% от родительского блока */
+    height: 250px;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: medium;
+    resize: none; /* Запрещаем изменение размера поля для ввода */
+}
+
+button {
+    font-family: "Century Gothic";
+    font-size: 100%;
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: rgb(105, 8, 73);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 210px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+button:hover {
+    background-color: rgb(242, 44, 80);
+    color: rgb(255, 255, 255);
+}
+

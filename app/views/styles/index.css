@@ -1,0 +1,71 @@
+body {
+    font-family: "Century Gothic";
+    background-color: white;
+    text-align: center;
+    background-image: url('images/dddor.jpg');
+    background-size: cover; /* Растягивает изображение на весь экран */
+    background-position: center; /* Выравнивает изображение по центру */
+    background-repeat: no-repeat; /* Отключает повторение изображения */
+    /*background-attachment: fixed;*/
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    font-weight: normal;
+    margin-top:110px; /* Замените 20px на нужное вам значение */
+    text-shadow: 1px 1px 7px #000;
+}
+
+p {
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 120%;
+    text-shadow: 2px 2px 3px #000;
+
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+/*a {*/
+/*    text-decoration: none;*/
+/*    color: #007bff;*/
+/*    font-weight: bold;*/
+/*}*/
+
+a:hover {
+    background-color: rgb(242, 44, 80); /* Измените цвет на желаемый */
+}
+
+.button-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 20px;
+    font-weight: bold;
+    background-color: #680648;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 20px; /* Устанавливает закругленность углов, создавая эффект плоского овала или мягкого квадрата */
+    width: 190px; /* Устанавливает одинаковую ширину для всех кнопок */
+    height: 30px; /* Устанавливает одинаковую высоту для всех кнопок */
+    text-align: center; /* Выравнивает текст по центру */
+    line-height: 30px; /* Центрирует текст по вертикали */
+}
+
+

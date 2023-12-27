@@ -1,0 +1,118 @@
+h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 7px #000;
+}
+
+body {
+    font-family: "Century Gothic";
+    text-align: center;
+    background-color: #690849;
+    background-image: url('images/min.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 90px auto;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+}
+
+input {
+    font-family: "Century Gothic";
+    padding: 8px;
+    margin: 8px 0;
+    width: 95%;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+input:hover {
+    background: white;
+}
+
+button, .button{
+    font-family: "Century Gothic";
+    font-size: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(105, 8, 73);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    /*margin-top: 7px;*/
+    border-radius: 20px;
+    width: 210px;
+    text-align: center;
+    line-height: 30px;
+}
+
+button:hover {
+    background-color: rgb(242, 44, 80);
+    color: rgb(255, 255, 255);
+}
+
+.button:hover {
+    background-color: rgb(242, 44, 80);
+    color: rgb(255, 255, 255);
+}
+
+.search-results {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px; /* Ширина такая же, как и у формы поиска */
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 20px; /* Отступ сверху для результатов поиска */
+}
+
+h3 {
+    font-family: "Century Gothic";
+    font-size: 130%;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+ul {
+    margin-top: 5px;
+    font-size: 130%;
+    list-style-type: none;
+    padding: 0;
+}
+
+li a{
+        font-size: 18px;
+        text-decoration: none;
+        color: rgb(241, 49, 72);
+}
+

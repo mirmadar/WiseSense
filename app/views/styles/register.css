@@ -1,0 +1,80 @@
+/* Добавьте следующий код в ваш файл styles/registration.css */
+
+body {
+    font-family: "Century Gothic";
+    background-color: white;
+    text-align: center;
+    background-image: url('images/min.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 280%; /* Уменьшено для лучшего соответствия макету */
+    font-weight: normal;
+    margin-top: 60px;
+    text-shadow: 1px 1px 4px #000;
+    text-transform: uppercase;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 90px auto; /* Отступ сверху и автоматическое центрирование по горизонтали */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100%;
+    width: 400px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+
+label {
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+    /*text-transform: uppercase;*/
+}
+
+input {
+    font-family: "Century Gothic";
+    padding: 8px;
+    margin: 8px 0;
+    width: 350px;
+    background: rgb(255, 255, 255);
+    border: 1px solid black; /* Указываем тип границы (solid) и цвет (black) */
+    border-radius: 10px;
+    font-size: medium;
+}
+
+
+input:hover{
+    background: white;
+}
+
+button {
+    font-family: "Century Gothic";
+    font-size: 100%; /* Уменьшено для лучшего соответствия макету */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(105, 8, 73);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 210px;
+    text-align: center;
+    line-height: 30px;
+}
+
+button:hover {
+    background-color: rgb(242, 44, 80);
+    color: rgb(255, 255, 255);
+}
